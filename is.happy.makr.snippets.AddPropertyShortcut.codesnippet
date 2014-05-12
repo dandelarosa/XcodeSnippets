@@ -6,7 +6,7 @@
 	<string>property</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>@property (nonatomic, &lt;#strong, weak, or assign#&gt;) &lt;#Type followed by name#&gt;;</string>
