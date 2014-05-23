@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>collectionview-h</string>
+	<string>collectionview-v</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
-layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
+layout.scrollDirection = UICollectionViewScrollDirectionVertical;
 layout.itemSize = &lt;#itemSize#&gt;;
 layout.minimumLineSpacing = &lt;#lineSpacing#&gt;;
 layout.minimumInteritemSpacing = &lt;#interitemSpacing#&gt;;
@@ -21,14 +21,13 @@ collectionView.showsHorizontalScrollIndicator = NO;
 collectionView.showsVerticalScrollIndicator = NO;
 collectionView.dataSource = &lt;#dataSource#&gt;;
 collectionView.delegate = &lt;#delegate#&gt;;
-[collectionView registerClass:[&lt;#classForCell#&gt; class] forCellWithReuseIdentifier:&lt;#resueIdentifier#&gt;];
-// TODO: add to superview (and assign to property if necessary)</string>
+[collectionView registerClass:[&lt;#classForCell#&gt; class] forCellWithReuseIdentifier:&lt;#resueIdentifier#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B73995E4-D4EC-4276-9FC9-9C345635C51C</string>
+	<string>3798089A-F324-424F-B18C-53E5CED479B9</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Create UICollectionView (Horizontal)</string>
+	<string>Create UICollectionView (Vertical)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
