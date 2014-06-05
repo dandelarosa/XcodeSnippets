@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>datafromfile</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>NSString *filename = &lt;#filename#&gt;;
+NSString *filePathInBundle = [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:filename];
+NSData *dataFromFile = [NSData dataWithContentsOfFile:filePathInBundle];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F52BD224-AC2B-48FD-9CEF-281EE6F54954</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Get NSData from a file in the app's bundle</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Data from File</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
