@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>copy</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (id)copyWithZone:(NSZone *)zone
+{
+    &lt;#Class#&gt; *copy = [[&lt;#Class#&gt; alloc] &lt;#init#&gt;];
+    
+    &lt;#Copy field values#&gt;
+    
+    return copy;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>091B1809-EFE1-4FB2-87FC-D6934C207DB9</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Template for implementing the NSCopying method</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Implement copyWithZone:</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
