@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>class</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/*!
+ @class &lt;#Class#&gt;
+ @description &lt;#description#&gt;
+ @warning This class is a stub. You can help Makr by expanding it.
+ */
+@interface &lt;#Class#&gt; : &lt;#NSObject#&gt;
+
+#pragma GCC warning "TODO: complete class interface"
+
+@end</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>23A60256-36AC-4E1F-9BAC-377C146FE011</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Contains empty class interface, to be filled in later. Includes appropriate documentation and compiler directives.</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Class Declaration Stub</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
